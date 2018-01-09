@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "965337258772",
+    "firebase_url": "https://smiley2-2ab33.firebaseio.com",
+    "project_id": "smiley2-2ab33",
+    "storage_bucket": "smiley2-2ab33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965337258772:android:572278aaac94a27e",
+        "android_client_info": {
+          "package_name": "com.userengage.userengageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965337258772-26rrbhk85a349b7tchv4ev5nv04bd7lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3OoPBbqa_8kRzLSp_5jvo2VDFDtwIRHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965337258772:android:9b9833c3dbfc996c",
+        "android_client_info": {
+          "package_name": "com.userengage.mobile_sdk_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965337258772-26rrbhk85a349b7tchv4ev5nv04bd7lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3OoPBbqa_8kRzLSp_5jvo2VDFDtwIRHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
