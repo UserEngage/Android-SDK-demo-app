@@ -7,9 +7,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-beta5'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.google.gms:google-services:3.1.1' //fcm dependency
-
 
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -19,9 +18,16 @@ buildscript {
 
 allprojects {
     repositories {
-        mavenLocal() // todo specify artifactory url
-        google()
         jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+        maven { url "http://dl.bintray.com/jetbrains/spek" }
+        maven { url "https://jitpack.io" }
+        maven {
+            url "https://github.com/UserEngage/Android-SDK/raw/master/"
+        }
+        google()
     }
 }
 
